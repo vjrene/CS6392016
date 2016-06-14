@@ -3,4 +3,9 @@
     <string name="action_settings">Settings</string>
 
     <string name="text_name">Check out these masks.</string>
+    <string name="mask5">mask5</string>
+    <string name="mask4">mask4</string>
+    <string name="mask3">mask3</string>
+    <string name="mask2">mask2</string>
+    <string name="mask1">mask2</string>
 </resources>
