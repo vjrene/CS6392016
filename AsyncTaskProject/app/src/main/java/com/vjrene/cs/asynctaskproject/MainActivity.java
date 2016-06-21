@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     //elements before they're taken from fragment
     ImageView imgV;
     Button btn;
-    String imgURL = "https://raw.githubusercontent.com/vjrene/CS6392016/master/AsyncTask/brooklyn.jpg";
+    String imgURL = "https://raw.githubusercontent.com/vjrene/CS6392016/master/AsyncTaskProject/brooklyn.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
