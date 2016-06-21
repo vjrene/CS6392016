@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/CS/Desktop/homeworkProjects/Async/AsyncTaskProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dce5f4946dc538f65d74afde576355c4b600cf24">
+        <dex dex="/Users/CS/Desktop/homeworkProjects/Async/AsyncTaskProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30497a3068d1aa1d0b7b6a728a475488d9782eae/classes.dex" />
+    </item>
+
+</items>
