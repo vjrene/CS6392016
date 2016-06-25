@@ -12,4 +12,4 @@ public class SurveyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.survey_page);
     }
-}ß
+}
