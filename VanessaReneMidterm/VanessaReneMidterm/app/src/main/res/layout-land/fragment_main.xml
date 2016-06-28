@@ -7,7 +7,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vjrene.cs.renevanessaandroidexam_s2016_v3.MainActivityFragment"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@color/bGPurple">
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,8 +55,17 @@
         android:text="@string/clickBtn"
         android:id="@+id/button"
         android:onClick="convertUSD"
-        android:layout_marginBottom="72dp"
-        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/usdAmnt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="..."
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toStartOf="@+id/button" />
+
 
 </RelativeLayout>

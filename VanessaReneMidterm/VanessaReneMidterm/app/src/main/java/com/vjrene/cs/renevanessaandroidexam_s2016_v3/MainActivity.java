@@ -11,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.*;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -51,11 +53,17 @@ public class MainActivity extends AppCompatActivity {
 
         Double usdToConvert = Double.parseDouble(dollars.getText().toString());
 
-        Double francs = usdToConvert * 439.36;
+        Double francs = usdToConvert*439.36;
 
         String francsConvert = francs.toString();
 
-        Toast.makeText(MainActivity.this, "CFA " + francsConvert, Toast.LENGTH_LONG).show();
+
+        TextView txt = (TextView) findViewById(R.id.textView);;
+        txt.setText("CFA: " + francsConvert);
+
+
+
+
 
         //check if onClick is working
         Log.i("Dollar Amount Entered: ", dollars.getText().toString());
