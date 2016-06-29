@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Convert!</string>
+    <string name="action_settings">Settings</string>
+    <string name="headlineText">Convert USD to CFA!</string>
+    <string name="enterUSDtext"> Enter the amount in USD:</string>
+    <string name="clickBtn">Convert to CFA</string>
+
+</resources>
