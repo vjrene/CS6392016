@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.vjrene.cs.appdocknativev.DeveloperActivityFragment"
+    tools:context="com.example.fabianpatino.appdocknative.DeveloperActivity"
     tools:showIn="@layout/activity_developer"
     android:weightSum="1">
 
