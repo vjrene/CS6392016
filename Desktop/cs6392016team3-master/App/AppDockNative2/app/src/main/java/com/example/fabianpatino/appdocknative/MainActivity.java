@@ -13,7 +13,7 @@ import android.content.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Button btn = (Button)findViewById(R.id.button);
+    Button btn = (Button)findViewById(R.id.button);
 
     public void goToDev (View view) {
         final Intent intent = new Intent(this, DeveloperActivity.class);
@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
 
     }

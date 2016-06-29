@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vjrene.cs.appdocknativev">
+    package="com.example.fabianpatino.appdocknative">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -26,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".DeveloperActivity"
             android:label="@string/title_activity_developer"
@@ -38,7 +39,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vjrene.cs.appdocknativev.MainActivity" />
+                android:value="com.example.fabianpatino.appdocknative.MainActivity" />
         </activity>
 
 

@@ -4,6 +4,6 @@
     android:id="@+id/fragment"
     android:name="com.example.fabianpatino.appdocknative.DeveloperActivityFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:layout="@layout/fragment_developer" />
+    android:layout_height="match_parent" />
+    <!-- app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:layout="@layout/fragment_developer" /> -->

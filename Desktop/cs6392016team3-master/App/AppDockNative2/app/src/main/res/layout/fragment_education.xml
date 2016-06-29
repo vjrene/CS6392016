@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.vjrene.cs.appdocknativev.EducationActivityFragment"
+    tools:context="com.example.fabianpatino.appdocknative.EducationActivityFragment"
     tools:showIn="@layout/activity_education">
 
 
@@ -30,8 +30,8 @@
         android:layout_centerHorizontal="true" />
 
         <VideoView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:id="@+id/beyeInterview"
             android:layout_below="@+id/eduHeadline"
             android:layout_centerHorizontal="true"
